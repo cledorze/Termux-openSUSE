@@ -19,8 +19,8 @@ echo " "
 echo Please choose a password for user $uservar
 passwd $uservar  
 echo " " 
-#echo "Installing sudo, please wait" 
-#zypper in -fy sudo > /dev/null 2>&1
+echo "Installing sudo, please wait" 
+zypper in -fy sudo > /dev/null 2>&1
 echo " "
 echo " "
 #zypper cc -a > /dev/null 2>&1 
