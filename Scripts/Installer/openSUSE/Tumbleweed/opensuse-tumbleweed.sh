@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash -x
 folder=opensuse-tumbleweed-fs
 if [ -d "$folder" ]; then
 	first=1
